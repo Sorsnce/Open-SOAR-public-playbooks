@@ -1,0 +1,7 @@
+
+# This file is tell Open-SOAR what playbooks to run and how to trigger
+# this should follow the crontab standard
+# Helpful crontab time generator https://crontab.guru/
+# All cron jobs are currently in UTC
+PYTHONPATH=/opt/Open-SOAR/modules
+0 14 * * sat /usr/local/bin/python /opt/Open-SOAR/playbooks/playbook1.py
